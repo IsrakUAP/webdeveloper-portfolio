@@ -149,3 +149,24 @@ header {
     text-align: left;
     margin-bottom: 20px;
 }
+footer{
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    gap: 100px;
+    padding: 100px 150px;
+    margin: 75px auto 25px;
+    
+}
+.contact-details input,textarea{
+display: block;
+margin-bottom: 20px;
+padding: 20px 16px;
+border-radius: 5px;
+background-color: antiquewhite;
+border: none;
+
+}
+.new,textarea{
+    width: 100%;  
+}
