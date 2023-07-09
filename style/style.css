@@ -132,3 +132,21 @@ header {
     height: 350px;
     width: 250px;
 }
+#resume{
+    text-align: center;
+}
+.resume-container{
+    display: flex;
+    gap: 10px;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+.resume-list{
+    width: 30%;
+    margin: auto 200px;
+    
+}
+.list-details{
+    text-align: left;
+    margin-bottom: 20px;
+}
