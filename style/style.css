@@ -36,11 +36,50 @@
     font-weight: 800;
     font-size: 35px;
     color: #181818;
+    padding-left: 49px;
     
 }
 #r-letter{
     color: rgb(207, 154, 6);
 }
 header{
-    background-color: antiquewhite;
+    background-color: blanchedalmond;
+    background-image: url('../images/developer.png');
+    background-position: left;
+    background-position-x: 40px;
+    background-repeat: no-repeat;
+    background-size: 50px;
+}
+.btn1{
+    border: 1px solid orange;
+    border-radius: 3px;
+    padding: 10px;
+    background-color: white;
+    color: orange;
+    margin-left: 10px;
+}
+.banner{
+    
+    
+   
+}
+#hardy{
+    height: 400px;
+    width: auto;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+    background-color: blanchedalmond;
+    background-image:url('../images/header_bg.png') ;
+    background-size: 500px;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    padding: 25px;
+    
+}
+.intro{
+    max-width: 100%;
 }
