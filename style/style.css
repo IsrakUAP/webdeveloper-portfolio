@@ -11,8 +11,6 @@
     margin-left: 150px;
     margin-right:150px;
     max-height: 100px;
-    padding-top: 5px;
-    padding-bottom: 5px;
 }
 .url-link{
     display: flex;
@@ -60,12 +58,12 @@ header{
 }
 .banner{
     
-    
-   
+       
 }
 #hardy{
     height: 400px;
     width: auto;
+    display: block;
 }
 .banner-container{
     display: flex;
@@ -77,7 +75,6 @@ header{
     background-size: 500px;
     background-position: bottom right;
     background-repeat: no-repeat;
-    padding: 25px;
     
 }
 .intro{
