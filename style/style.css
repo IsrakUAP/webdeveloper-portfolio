@@ -1,55 +1,65 @@
-
-*{
+* {
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0px;
     padding: 0px;
     font-family: 'Open Sans', sans-serif;
 }
-.head-container{
+
+.head-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-left: 150px;
-    margin-right:150px;
+    margin-right: 150px;
     max-height: 100px;
     padding: 20px;
 }
-.url-link{
+
+.url-link {
     display: flex;
     gap: 25px;
     align-items: center;
 }
-.link{
+
+.link {
     text-decoration: none;
 }
-.link-items{
+
+.link-items {
     list-style: none;
 }
-.btn{
+
+.btn {
     padding: 10px;
     color: white;
     background-color: rgb(199, 103, 14);
     border: none;
     border-radius: 3px;
 }
-.headtitle{
+
+.headtitle {
     font-weight: 800;
     font-size: 35px;
     color: #181818;
     padding-left: 49px;
-    
+
 }
-#r-letter{
+
+#r-letter {
     color: rgb(207, 154, 6);
 }
-header{
-    
+
+header {
+
     background-image: url('../images/developer.png');
     background-position: left;
     background-position-x: 40px;
     background-repeat: no-repeat;
     background-size: 50px;
 }
-.btn1{
+
+.btn1 {
     border: 1px solid orange;
     border-radius: 3px;
     padding: 10px;
@@ -57,37 +67,40 @@ header{
     color: orange;
     margin-left: 10px;
 }
-.banner{
-    
-       
-}
-#hardy{
+
+.banner {}
+
+#hardy {
     height: 400px;
     width: auto;
     display: block;
 }
-.banner-container{
+
+.banner-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-left: 200px;
     background-color: blanchedalmond;
-    background-image:url('../images/header_bg.png') ;
+    background-image: url('../images/header_bg.png');
     background-size: 500px;
     background-position: bottom right;
     background-repeat: no-repeat;
     padding: 20px;
-    
+
 }
-.intro{
+
+.intro {
     max-width: 100%;
 }
-.person-info{
+
+.person-info {
     display: flex;
     gap: 20px;
     justify-content: space-evenly;
 }
-.aboutme-container{
+
+.aboutme-container {
     padding: 20px;
     text-align: center;
     border-radius: 2px;
@@ -95,5 +108,27 @@ header{
     margin: 20px auto;
     background-color: blanchedalmond;
     padding: 150px;
-    
+
+}
+
+.content-list {
+    display: flex;
+    margin: 20px;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.what-i-do {
+    margin: 150px auto;
+    width: 75%;
+    text-align: center;
+
+}
+
+.content {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    height: 350px;
+    width: 250px;
 }
