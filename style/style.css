@@ -137,13 +137,12 @@ header {
 }
 .resume-container{
     display: flex;
-    gap: 10px;
-    margin-left: 130px;
-    margin-right: 130px;
+    justify-content:space-evenly;
+    margin-left: 90px;
+
 }
 .resume-list{
-    width: 30%;
-    margin: auto 200px;
+    width: 30%;   
     
 }
 .list-details{
