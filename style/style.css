@@ -11,6 +11,7 @@
     margin-left: 150px;
     margin-right:150px;
     max-height: 100px;
+    padding: 20px;
 }
 .url-link{
     display: flex;
@@ -41,7 +42,7 @@
     color: rgb(207, 154, 6);
 }
 header{
-    background-color: blanchedalmond;
+    
     background-image: url('../images/developer.png');
     background-position: left;
     background-position-x: 40px;
@@ -75,8 +76,24 @@ header{
     background-size: 500px;
     background-position: bottom right;
     background-repeat: no-repeat;
+    padding: 20px;
     
 }
 .intro{
     max-width: 100%;
+}
+.person-info{
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+.aboutme-container{
+    padding: 20px;
+    text-align: center;
+    border-radius: 2px;
+    width: 50%;
+    margin: 20px auto;
+    background-color: blanchedalmond;
+    padding: 150px;
+    
 }
